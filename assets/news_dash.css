@@ -1,0 +1,147 @@
+/* Daniel McNulty II
+CSS file for styling of RSS_Twitter_&_YouTube_Dashboard.
+W3Schools was relied on as the foundation for most of the styling.
+*/
+
+/* Custom App CSS ---------------------------------------*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1c23;
+    color: #b2b2b2;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the header */
+.wrapper {
+    width:100%;
+    height:5vh;
+    display:table;
+}
+.central {
+    width:30vw;
+    height:5vh;
+    padding:1vw;
+    float:left;
+    background-color:#1a1c23;
+    display: table-cell;
+}
+.left {
+    width:30vw;
+    height:5vh;
+    padding:1vw;
+    float:left;
+    background-color:#1a1c23;
+    display: table-cell;
+}
+.right {
+    width:30vw;
+    height:5vh;
+    padding:1vw;
+    float:left;
+    background-color:#1a1c23;
+    display: table-cell;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 30vw;
+  padding: 1vw;
+}
+
+.column2 {
+  float: left;
+  width: 30vw;
+  padding: 1vw
+}
+
+.column3 {
+  float: left;
+  width: 30vw;
+  padding: 1vw;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+  /* Typography
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+h1 { font-size: 2.25rem; line-height: 1.2;  letter-spacing: -.1rem; color: #d0d0d0;
+}
+h2 { font-size: 2.0rem; line-height: 1.25; letter-spacing: -.1rem; margin-bottom: 1.8rem; margin-top: 1.8rem;
+     color: #d0d0d0;
+}
+h3 { font-size: 1.75rem; line-height: 1.3;  letter-spacing: -.1rem; margin-bottom: 1.5rem; margin-top: 1.5rem;
+     color: #d0d0d0;
+}
+h4 { font-size: 1.5rem; line-height: 1.35; letter-spacing: -.08rem; margin-bottom: 0.0rem; margin-top: 0.0rem;
+     color: #d0d0d0;
+}
+h5 { font-size: 1rem; line-height: 1.6;  letter-spacing: 0; margin-bottom: 0.0rem; margin-top: 0.0rem;
+     color: #d0d0d0;
+}
+h6 { font-size: .875rem; line-height: 1.6;  letter-spacing: 0; margin-bottom: 0.0rem; margin-top: 0.0rem;
+     color: #d0d0d0;
+}
+
+p { margin-top: 0; font-size: .75rem; color: #b2b2b2;
+}
+
+/* Links ––––––––––––––––––––––––––––––––––––––––––––––––*/
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+/* Image ------------------------------------------------*/
+img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+/* Input ------------------------------------------------*/
+input{
+    width: 100%;
+    background: #888;
+}
+
+/* Scroll -----------------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a1c23;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 10px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
